@@ -32,8 +32,8 @@ jQuery.extend(Drupal.settings, { "basePath": "/" });
 //<![CDATA[
 jQuery(document).ready(function($) {
     slideshow = $('.slideshow');
-      slideshow.append('<div style="background: url(/files/pictures/slideshow/1_bar.jpg);"></div>');
-      slideshow.append('<div style="background: url(/files/pictures/slideshow/2_landscape.jpg);"></div>');
+      slideshow.append('<div style="background: url(files/pictures/slideshow/1_bar.jpg);"></div>');
+      slideshow.append('<div style="background: url(files/pictures/slideshow/2_landscape.jpg);"></div>');
     slideshow.cycle({
                 fx: 'scrollRight', next: '.slideshow', timeout: 15000, speed: 500});
 });
