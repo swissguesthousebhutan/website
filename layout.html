@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="style.css">
+    {% if name == 'pictures' %}
+        <link rel="stylesheet" href="gallery.css">
+    {% end %}
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body>
+
+<div id="header">
+    <h2 class="logo-name red">
+        <a href="index.html">Swiss Guest House Bhutan</a>
+    </h2>
+    <span class="logo-text">Make yourself at home!</span>
+</div>
+
+<div id="menu">
+    <div class="leaf first{% if name == 'history' %} active-trail{% end %}"><a href="history.html">History</a></div>
+    <div class="leaf{% if name == 'pictures' %} active-trail{% end %}"><a href="pictures.html">Pictures</a></div>
+    <div class="leaf{% if name == 'activities' %} active-trail{% end %}"><a href="activities.html">Activities</a></div>
+    <div class="leaf last{% if name == 'guestbook' %} active-trail{% end %}"><a href="guestbook.html">Guestbook</a></div>
+    <div id="menu-right">
+        <div class="en first">
+            <span class="language-link active">en</span>
+        </div>
+        <div class="de last">
+            <a href="{{ lang_names.de }}.html" class="language-link">de</a>
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+<div id="footer-wrapper">
+    <ul class="links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="links.html">Links</a></li>
+    </ul>
+    <div id="footer-message"><a href="copyright.html">Copyright</a> 2010-2022 Swiss Guest House Bhutan</div>
+</div>
+
+{% if name == 'pictures' %}
+    <script type="module" src="gallery.js"></script>
+{% endif %}
+
+</body>
+</html>
