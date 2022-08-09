@@ -1,0 +1,50 @@
+galleries:
+  rooms:
+    title:
+      en: Rooms
+      de: Zimmer
+    subtitle:
+      en: Have a look at the rooms.
+      de: Schauen sie sich die Zimmer an.
+    path: pictures/rooms
+    geometries: [ x150 ]
+
+  bumthang:
+    title:
+      en: Bumthang
+      de: Bumthang
+    subtitle:
+      en: Pictures of the loveley Bumthang valley.
+      de: Bilder des wunderschönen Bumthang Tals.
+    path: pictures/bumthang
+    geometries: [ x150 ]
+
+  restaurant:
+    title:
+      en: Restaurant
+      de: Restaurant
+    subtitle:
+      en: Taste our home-made products plus the real Swiss dishes and many more.
+      de: Probieren sie unsere hausgemachten Produkte, traditionell schweizerische, sowie viele andere Gerichte.
+    path: pictures/restaurant
+    geometries: [ x150 ]
+
+  dishes:
+    title:
+      en: Dishes
+      de: Gerichte
+    subtitle:
+      en: We are using local products whenever possible.
+      de: Wir verwenden wenn immer möglich lokal hergestellte produkte.
+    path: pictures/dishes
+    geometries: [ x150 ]
+
+  surroundings:
+    title:
+      en: Surroundings
+      de: Umgebung
+    subtitle:
+      en: The guesthouse is surrounded by a wonderful nature. You can go for a hike to Pesseling Gompa.
+      de: Das Guethouse ist eingebettet von eine wunderschöne Natur. Machen sie eine Wanderung auf die Pesseling Gompa!
+    path: pictures/surroundings
+    geometries: [ x150 ]

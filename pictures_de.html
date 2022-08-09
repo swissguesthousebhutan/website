@@ -3,16 +3,16 @@
 <div id="wrapper">
     <div id="content">
         <div class="view-content">
-            {% for name, gallery in galleries.items() %}
+            {% for gallery in galleries %}
             <div class="node">
                 <h2 class="title red">{{gallery.title.de}}</h2>
                 <p>{{gallery.subtitle.de}}</p>
-                <div class="content pswp-gallery">
+                <div class="content gallery">
                     {% for image in gallery.images %}
                     <div>
                         <a href="{{image.original.path}}"
-                           target="_blank" data-pswp-width="{{image.original.width}}"
-                           data-pswp-height="{{image.original.height}}"
+                           target="_blank" data-gallery-image-id="{{image.id}}" data-gallery-image-name="{{image.name}}"
+                           data-pswp-width="{{image.original.width}}" data-pswp-height="{{image.original.height}}"
                            data-pswp-srcset="{{image.srcset}}">
                             <img src="{{image.renditions[0].path}}" alt="{{image.name}}"/>
                         </a>
@@ -24,3 +24,5 @@
         </div>
     </div>
 </div>
+
+<script type="module" src="galleries/gallery.js"></script>

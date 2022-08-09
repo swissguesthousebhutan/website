@@ -1,11 +1,11 @@
 all:
-	gem install --user-install gallery_generator
-	pip3 install --user makesite-liquidish
-	rm -rf site
-	prepare_images.rb
-	makesite-liquidish.py
+	gem install --user-install gallery-gen
+	pip install --user-install makesite-liquidish
+	rm -rf _site
+	gallery-gen
+	makesite
 
 all_dev:
-	rm -rf site
-	../gallery-generator/bin/prepare_images.rb
-	../makesite/makesite_liquidish.py
+	rm -rf _site
+	../gallery-gen/bin/gallery-gen
+	../makesite-liquidish/makesite_liquidish/makesite.py
