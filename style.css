@@ -566,6 +566,10 @@ h6 {
     text-align: left;
 }
 
+#footer-message > .left > * {
+    padding-right: 8px;
+}
+
 #footer-message > .left img {
     max-height: 16px;
 }
