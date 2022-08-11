@@ -1,6 +1,6 @@
 all_dev:
 	#rm -rf _site _data
-	#../gallery-gen/bin/gallery-gen
+	../gallery-gen/bin/gallery-gen
 	../makesite-liquidish/makesite_liquidish/makesite.py
 
 	mogrify -resize 200x200 _site/assets/Picture*
