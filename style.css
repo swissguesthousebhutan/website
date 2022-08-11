@@ -557,8 +557,22 @@ h6 {
 }
 
 #footer-message {
-    text-align: right;
     font-size: 70%;
+    min-height: 32px;
+}
+
+#footer-message > .left {
+    float: left;
+    text-align: left;
+}
+
+#footer-message > .left img {
+    max-height: 16px;
+}
+
+#footer-message > .right {
+    float: right;
+    text-align: right;
 }
 
 .slides > div {

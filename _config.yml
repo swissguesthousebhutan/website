@@ -7,7 +7,7 @@ galleries:
       en: Have a look at the rooms.
       de: Schauen sie sich die Zimmer an.
     path: pictures/rooms
-    geometries: [ x150 ]
+    geometries: [ x150, x1000 ]
 
   bumthang:
     title:
@@ -17,7 +17,7 @@ galleries:
       en: Pictures of the loveley Bumthang valley.
       de: Bilder des wunderschönen Bumthang Tals.
     path: pictures/bumthang
-    geometries: [ x150 ]
+    geometries: [ x150, x1000 ]
 
   restaurant:
     title:
@@ -27,7 +27,7 @@ galleries:
       en: Taste our home-made products plus the real Swiss dishes and many more.
       de: Probieren sie unsere hausgemachten Produkte, traditionell schweizerische, sowie viele andere Gerichte.
     path: pictures/restaurant
-    geometries: [ x150 ]
+    geometries: [ x150, x1000 ]
 
   dishes:
     title:
@@ -37,7 +37,7 @@ galleries:
       en: We are using local products whenever possible.
       de: Wir verwenden wenn immer möglich lokal hergestellte produkte.
     path: pictures/dishes
-    geometries: [ x150 ]
+    geometries: [ x150, x1000 ]
 
   surroundings:
     title:
@@ -47,4 +47,4 @@ galleries:
       en: The guesthouse is surrounded by a wonderful nature. You can go for a hike to Pesseling Gompa.
       de: Das Guethouse ist eingebettet von eine wunderschöne Natur. Machen sie eine Wanderung auf die Pesseling Gompa!
     path: pictures/surroundings
-    geometries: [ x150 ]
+    geometries: [ x150, x1000 ]
