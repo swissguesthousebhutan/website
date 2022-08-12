@@ -1,50 +1,21 @@
 galleries:
-  rooms:
-    title:
-      en: Rooms
-      de: Zimmer
-    subtitle:
-      en: Have a look at the rooms.
-      de: Schauen sie sich die Zimmer an.
-    path: pictures/rooms
+
+  "Rooms":
+    title: { en: Rooms, de: Zimmer }
     geometries: [ x150, x1000 ]
 
-  bumthang:
-    title:
-      en: Bumthang
-      de: Bumthang
-    subtitle:
-      en: Pictures of the loveley Bumthang valley.
-      de: Bilder des wunderschönen Bumthang Tals.
-    path: pictures/bumthang
+  "Reception , resturant":
+    title: { en: Reception, Restaurant, de: Reception, Restaurant }
     geometries: [ x150, x1000 ]
 
-  restaurant:
-    title:
-      en: Restaurant
-      de: Restaurant
-    subtitle:
-      en: Taste our home-made products plus the real Swiss dishes and many more.
-      de: Probieren sie unsere hausgemachten Produkte, traditionell schweizerische, sowie viele andere Gerichte.
-    path: pictures/restaurant
+  "Around":
+    title: { en: Around, de: Around }
     geometries: [ x150, x1000 ]
 
-  dishes:
-    title:
-      en: Dishes
-      de: Gerichte
-    subtitle:
-      en: We are using local products whenever possible.
-      de: Wir verwenden wenn immer möglich lokal hergestellte produkte.
-    path: pictures/dishes
+  "our speciality":
+    title: { en: Our specialities, de: Unsere Spezialitäten }
     geometries: [ x150, x1000 ]
 
-  surroundings:
-    title:
-      en: Surroundings
-      de: Umgebung
-    subtitle:
-      en: The guesthouse is surrounded by a wonderful nature. You can go for a hike to Pesseling Gompa.
-      de: Das Guethouse ist eingebettet von eine wunderschöne Natur. Machen sie eine Wanderung auf die Pesseling Gompa!
-    path: pictures/surroundings
+  "Swiss hotel in snow":
+    title: { en: Swiss hotel in snow, de: Swiss Hotel im Winter }
     geometries: [ x150, x1000 ]

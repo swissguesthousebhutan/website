@@ -10,23 +10,25 @@
 <body>
 
 <div id="header">
-    <h2 class="logo-name red">
+    <h2 class="page-title red">
         <a href="index.html">Swiss Guest House Bhutan</a>
     </h2>
-    <span class="logo-text">Make yourself at home!</span>
+    <span class="page-claim">Make yourself at home!</span>
 </div>
 
-<div id="menu">
-    <div class="leaf first{% if name == 'history' %} active-trail{% end %}"><a href="history.html">History</a></div>
-    <div class="leaf{% if name == 'pictures' %} active-trail{% end %}"><a href="pictures.html">Pictures</a></div>
-    <div class="leaf{% if name == 'activities' %} active-trail{% end %}"><a href="activities.html">Activities</a></div>
-    <div class="leaf last{% if name == 'guestbook' %} active-trail{% end %}"><a href="guestbook.html">Guestbook</a></div>
-    <div id="menu-right">
-        <div class="en first">
-            <span class="language-link active">en</span>
-        </div>
-        <div class="de last">
-            <a href="{{ lang_names.de }}.html" class="language-link">de</a>
+<div id="menu-wrapper">
+    <div id="menu">
+        <div class="leaf {% if name == 'rooms'    %} active {% end %}"><a href="rooms.html"   >Rooms</a></div>
+        <div class="leaf {% if name == 'house'    %} active {% end %}"><a href="house.html"   >House</a></div>
+        <div class="leaf {% if name == 'pictures' %} active {% end %}"><a href="pictures.html">Pictures</a></div>
+        <div class="leaf {% if name == 'bumthang' %} active {% end %}"><a href="bumthang.html">Bumthang</a></div>
+        <div id="menu-right">
+            <div class="en first">
+                <span class="language-link active">en</span>
+            </div>
+            <div class="de last">
+                <a href="{{ lang_names.de }}.html" class="language-link">de</a>
+            </div>
         </div>
     </div>
 </div>
@@ -34,17 +36,14 @@
 {{ content }}
 
 <div id="footer-wrapper">
-    <ul class="links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="links.html">Links</a></li>
-    </ul>
-    <div id="footer-message">
-        <div class="left">
-            <a href="https://www.facebook.com/www.swissguesthouse.bt/"><img src="assets/link_facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/swissguesthouse/"><img src="assets/link_instagram.png" alt="instagram"></a>
+    <div id="footer">
+        <div id="footer-message">
+            <div class="left">
+                <a href="https://www.facebook.com/www.swissguesthouse.bt/"><img src="assets/link_facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/swissguesthouse/"><img src="assets/link_instagram.png" alt="instagram"></a>
+            </div>
+            <div class="right"><a href="copyright.html">Copyright</a> 2010-2022 Swiss Guest House Bhutan</div>
         </div>
-        <div class="right"><a href="copyright.html">Copyright</a> 2010-2022 Swiss Guest House Bhutan</div>
     </div>
 </div>
 

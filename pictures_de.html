@@ -1,12 +1,11 @@
 <!-- page_title: Bilder | Swiss Guest House Bhutan -->
 
-<div id="wrapper">
+<div id="content-wrapper">
     <div id="content">
         <div class="view-content">
             {% for gallery in galleries %}
             <div class="node">
                 <h2 class="title red">{{gallery.title.de}}</h2>
-                <p>{{gallery.subtitle.de}}</p>
                 <div class="content gallery">
                     {% for image in gallery.images %}
                     <div>
