@@ -4,18 +4,18 @@ galleries:
     title: { en: Rooms, de: Zimmer }
     geometries: [ x150, x1000 ]
 
-  "Reception , resturant":
-    title: { en: Reception, Restaurant, de: Reception, Restaurant }
+  "Reception and Resturant":
+    title: { en: Reception and Restaurant, de: Reception und Restaurant }
     geometries: [ x150, x1000 ]
 
   "Around":
     title: { en: Around, de: Around }
     geometries: [ x150, x1000 ]
 
-  "our speciality":
-    title: { en: Our specialities, de: Unsere Spezialitäten }
+  "Our Specialities":
+    title: { en: Our Specialities, de: Unsere Spezialitäten }
     geometries: [ x150, x1000 ]
 
-  "Swiss hotel in snow":
-    title: { en: Swiss hotel in snow, de: Swiss Hotel im Winter }
+  "Swiss Guest House in the Snow":
+    title: { en: Swiss Guest House in the Snow, de: Swiss Guest House im Winter }
     geometries: [ x150, x1000 ]
