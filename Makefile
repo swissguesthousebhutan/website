@@ -1,16 +1,18 @@
 all_now:
-	rm -rf _site _data
-	../gallery-gen/bin/gallery-gen
+	#rm -rf _site _data
+	#../gallery-gen/bin/gallery-gen
 	../makesite-liquidish/makesite_liquidish/makesite.py
 
+	cp .htaccess book _site
 	mogrify -resize 200x200 _site/assets/Picture*
-	#rsync -avL _site/. www-data@patrickpfeifer.net:www.swissguesthouse.bt/site/.
+#	rsync -avL _site/. www-data@patrickpfeifer.net:www.swissguesthouse.bt/site/.
 
 all_dev:
 	rm -rf _site _data
 	../gallery-gen/bin/gallery-gen
 	../makesite-liquidish/makesite_liquidish/makesite.py
 
+	cp .htaccess book _site
 	mogrify -resize 200x200 _site/assets/Picture*
 	rsync -avL _site/. www-data@patrickpfeifer.net:www.swissguesthouse.bt/site/.
 
