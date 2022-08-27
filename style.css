@@ -216,31 +216,24 @@ th {
 }
 #content {
     width: 100%;
-    flex: 1 1 content;
 }
 
 #sidebar-left {
     font-size: 12px;
-    flex: 1 1 content;
 }
 
-.sidebars-l #content {
-    width: 69%;
-    min-width: 69%;
-    max-width: 69%;
-    padding-left: 25px;
-}
-
-.sidebars-r #content {
-    width: 69%;
-    min-width: 69%;
-    max-width: 69%;
-    padding-right: 25px;
+@media (min-width: 810px) {
+    .sidebars-l #content,
+    .sidebars-r #content {
+        width: calc(100% - 232px - 25px);
+        /*min-width: 69%;*/
+        /*max-width: 69%;*/
+        padding-right: 25px;
+    }
 }
 
 #sidebar-right {
     font-size: 12px;
-    flex: 1 1 content;
 }
 
 #sidebar-left .block, #sidebar-right .block {
