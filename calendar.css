@@ -1,0 +1,87 @@
+:root {
+    --green: #4eab3f;
+    --red: #e5998c;
+}
+
+.calendar {
+    position: relative;
+    text-align: justify;
+}
+.calendar + .calendar {
+    margin-top: 15px;
+}
+.calendar table {
+    border: none;
+    width: 100%;
+}
+.calendar th,
+.calendar td
+{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-left-color: #fff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 14.2857%;
+    padding: 1px 5px;
+}
+.calendar thead th {
+    color: #000;
+    font-weight: bold;
+}
+.calendar > div {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+}
+.calendar > div td {
+    border-left: 1px solid #fff;
+}
+.calendar > div:not(.calendar-legend) {
+    height: 200px;
+    width: 270px;
+}
+.calendar > div.calendar-legend {
+    white-space: nowrap;
+}
+
+.calendar .calendar-legend {
+    margin-top: 5px;
+}
+.calendar .calendar-legend .calendar-free,
+.calendar .calendar-legend .calendar-busy {
+    background-color: transparent;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.calendar .calendar-legend > div:before {
+    display: inline-block;
+    content: '';
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+    width: 40px;
+}
+
+.calendar .calendar-busy,
+.calendar-legend .calendar-busy::before {
+    background: var(--red);
+}
+.calendar .calendar-free-busy {
+    background: var(--green);
+    background: linear-gradient(135deg, var(--green) 50%, var(--red) 50%);
+}
+.calendar .calendar-busy-free {
+    background: var(--red);
+    background: linear-gradient(135deg, var(--red) 50%, var(--green) 50%);
+}
+.calendar .calendar-free,
+.calendar-legend .calendar-free::before {
+    background: var(--green);
+}

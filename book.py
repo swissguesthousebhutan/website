@@ -14,9 +14,6 @@ if os.environ["REQUEST_METHOD"] != "POST":
 	print()
 	exit(0)
 
-print("Location: /")
-print()
-
 mail = """\
 To: patrick@patrickpfeifer.net
 Subject: www.swissguesthouse.bt web form booking request 
@@ -27,7 +24,7 @@ Content-Type: text/html
 <html>
 <body>
 <p>
-A new booking request was submitted at <a href="https://www.swissguesthouse.bt/book.html">swissguesthouse.bt/book</a>
+A new booking request was submitted at <a href="https://www.swissguesthouse.bt/book.html">swissguesthouse.bt/book.html</a>
 <dl>
 {fields}
 </dl>
@@ -52,5 +49,8 @@ mail = mail.format(
 
 p = Popen(["/usr/sbin/sendmail", "-ti"], stdin=PIPE)
 p.communicate(bytes(mail, "utf-8"))
+
+print("Location: /")
+print()
 
 # vim: set ts=4 sw=4 et:
