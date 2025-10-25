@@ -1,0 +1,23 @@
+name: Build and Publish
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make install_build_tools
+      - run: make all
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site/ }
+  publish:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: publish
+        uses: actions/deploy-pages@v4
