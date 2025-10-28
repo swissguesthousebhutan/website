@@ -1,3 +1,5 @@
+install_build_tools:
+
 all:
 	cd frontend
 	cd frontend && npm ci
