@@ -1,15 +1,23 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from "next";
 
-const nextConfig: NextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/Home",
-        permanent: true,
-      },
-    ];
-  },
-};
+import {PHASE_PRODUCTION_BUILD} from "next/constants";
+
+const nextConfig =
+    (phase: string): NextConfig =>
+        phase === PHASE_PRODUCTION_BUILD
+            ? {
+                output: "export"
+            }
+            : {
+                async redirects() {
+                    return [
+                        {
+                            source: "/",
+                            destination: "/Home",
+                            permanent: true,
+                        },
+                    ];
+                },
+            };
 
 export default nextConfig;
