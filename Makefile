@@ -1,8 +1,7 @@
 install_build_tools:
 
 all:
-	cd frontend
-	cd frontend && npm ci
-	cd frontend && npm run build
-#	cd frontend && npx next export
-	ln -s frontend/.next/static _site
+	cd frontend \
+	    && npm ci \
+	    && npm run build
+	mv frontend/out _site
