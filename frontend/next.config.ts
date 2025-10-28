@@ -6,7 +6,10 @@ const nextConfig =
     (phase: string): NextConfig =>
         phase === PHASE_PRODUCTION_BUILD
             ? {
-                output: "export"
+                output: "export",
+                images: {
+                    unoptimized: true,
+                },
             }
             : {
                 async redirects() {
