@@ -16,7 +16,7 @@ import {
 
 export default function SiteNavbar() {
   const navItems = [
-    { href: "/", label: "Home" },
+    { href: "/Home", label: "Home" },
     { href: "/rooms", label: "Rooms" },
     { href: "/pictures", label: "Pictures" },
     { href: "/activities", label: "Activities" },
@@ -25,11 +25,14 @@ export default function SiteNavbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-100 bg-background text-foreground border-b border-primary rounded-b-lg">
+    <header className="sticky top-0 z-100 bg-background text-foreground border-b-2 border-primary rounded-b-lg">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="flex h-14 items-center justify-between">
           {/* Brand */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-2xl">
+          <Link
+            href="/Home"
+            className="flex items-center gap-2 font-bold text-2xl"
+          >
             <Image
               src="/logo.svg"
               alt="Swiss Guest House logo"

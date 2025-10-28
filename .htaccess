@@ -1,9 +1,0 @@
-<Files book.py>
-	Options +ExecCGI
-	SetHandler cgi-script
-</Files>
-
-RewriteEngine on
-RewriteRule ^/book$ /book.py
-
-# vim: set sw=4 ts=4 et:

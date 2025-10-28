@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 
 export default function SiteFooter() {
   return (
-    <footer className="bg-background text-foreground mt-12 border-t border-primary">
+    <footer className="bg-background text-foreground mt-12 border-t-2 border-primary rounded-t-lg">
       <div className="mx-auto max-w-7xl px-4 md:px-6 py-10 grid gap-8 text-sm">
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
@@ -70,7 +70,7 @@ export default function SiteFooter() {
           </div>
         </div>
       </div>
-      <div className="border-t border-primary">
+      <div className="border-t-2 border-primary">
         <div className="mx-auto max-w-7xl px-4 md:px-6 py-4 text-xs text-foreground/80">
           © {new Date().getFullYear()} Swiss Guest House Bhutan. All rights
           reserved.

@@ -41,3 +41,22 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans, Arial), Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars while preserving scroll functionality */
+html,
+body {
+  /* Firefox */
+  scrollbar-width: none;
+  /* IE 10+ and old Edge */
+  -ms-overflow-style: none;
+}
+
+/* Chrome, Safari, Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
