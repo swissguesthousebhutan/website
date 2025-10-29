@@ -71,7 +71,7 @@ export default function Hero() {
                   <Link href="/location">See location</Link>
                 </Button>
                 <Link
-                  href="https://facebook.com/yourpage"
+                  href="https://www.facebook.com/share/1Bost5bxeY/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -80,7 +80,7 @@ export default function Hero() {
                   <Facebook className="h-5 w-5" />
                 </Link>
                 <Link
-                  href="https://instagram.com/yourpage"
+                  href="https://www.instagram.com/swissguesthouse?igsh=Mmh1N3pocmpub3pn"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
