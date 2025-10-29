@@ -55,14 +55,14 @@ export default function SiteFooter() {
           <div className="mt-3 flex items-center gap-3">
             <Link
               aria-label="Facebook"
-              href="#"
+              href="https://www.facebook.com/share/1Bost5bxeY/?mibextid=wwXIfr"
               className="p-2 rounded-md border border-current hover:bg-foreground/10"
             >
               <Facebook className="h-4 w-4" />
             </Link>
             <Link
               aria-label="Instagram"
-              href="#"
+              href="https://www.instagram.com/swissguesthouse?igsh=Mmh1N3pocmpub3pn"
               className="p-2 rounded-md border border-current hover:bg-foreground/10"
             >
               <Instagram className="h-4 w-4" />
