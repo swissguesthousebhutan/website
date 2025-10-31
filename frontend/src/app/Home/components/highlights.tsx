@@ -14,7 +14,7 @@ export default function Highlights() {
         <FeatureCard
           icon={<UtensilsCrossed className="h-5 w-5" />}
           title="Homemade meals"
-          text="Enjoy local Bhutanese dishes prepared with care from fresh ingredients."
+          text="Enjoy multi-cuisine dishes prepared with care from fresh ingredients."
           href="#meals"
         />
         <FeatureCard
