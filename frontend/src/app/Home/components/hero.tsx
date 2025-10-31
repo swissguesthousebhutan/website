@@ -68,7 +68,13 @@ export default function Hero() {
                   variant="outline"
                   className="bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
                 >
-                  <Link href="/location">See location</Link>
+                  <Link
+                    href="https://maps.app.goo.gl/EET6hk2y2J2YcGUb8?g_st=ipc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    See location
+                  </Link>
                 </Button>
                 <Link
                   href="https://www.facebook.com/share/1Bost5bxeY/?mibextid=wwXIfr"
