@@ -47,7 +47,7 @@ export default function SiteFooter() {
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4" aria-hidden />
               <span>
-                <span className="font-medium">Address:</span> Swiss Guesthouse,
+                <span className="font-medium">Address:</span> Swiss Guest house,
                 Kharsumphe, Bumthang 32001, Bhutan
               </span>
             </li>
