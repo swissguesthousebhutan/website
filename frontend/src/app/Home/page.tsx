@@ -2,6 +2,7 @@ import Hero from "@/app/Home/components/hero";
 import Welcome from "@/app/Home/components/welcome";
 import Highlights from "@/app/Home/components/highlights";
 import FeatureSection from "@/app/Home/components/feature-section";
+import EndMessage from "@/app/Home/components/end-message";
 import { Bed, UtensilsCrossed, MapPin } from "lucide-react";
 
 export default function Home() {
@@ -50,6 +51,7 @@ export default function Home() {
           { src: "/Hompage.png", alt: "Location photo 5" },
         ]}
       />
+      <EndMessage />
     </div>
   );
 }
