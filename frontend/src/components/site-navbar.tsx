@@ -68,7 +68,12 @@ export default function SiteNavbar() {
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
-                <Button size="icon" variant="outline" aria-label="Open menu">
+                <Button
+                  size="icon"
+                  variant="outline"
+                  aria-label="Open menu"
+                  suppressHydrationWarning
+                >
                   <Menu className="h-5 w-5" />
                 </Button>
               </SheetTrigger>
