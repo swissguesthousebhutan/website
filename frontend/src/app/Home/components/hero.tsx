@@ -11,11 +11,11 @@ export default function Hero() {
   const images = useMemo(
     () => [
       // Replace with your real files if names differ
-      { src: "/home/Hero1.png", alt: "Swiss Guest House exterior 1" },
-      { src: "/home/Hero2.png", alt: "Swiss Guest House exterior 2" },
-      { src: "/home/Hero3.png", alt: "Swiss Guest House exterior 3" },
-      { src: "/home/Hero4.png", alt: "Swiss Guest House exterior 4" },
-      { src: "/home/Hero5.png", alt: "Swiss Guest House exterior 5" },
+      { src: "/home/Hero1.jpg", alt: "Swiss Guest House exterior 1" },
+      { src: "/home/Hero2.jpg", alt: "Swiss Guest House exterior 2" },
+      { src: "/home/Hero3.jpg", alt: "Swiss Guest House exterior 3" },
+      { src: "/home/Hero4.jpg", alt: "Swiss Guest House exterior 4" },
+      { src: "/home/Hero5.jpg", alt: "Swiss Guest House exterior 5" },
     ],
     []
   );
