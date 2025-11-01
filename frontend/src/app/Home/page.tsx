@@ -17,11 +17,10 @@ export default function Home() {
         description="Relax in rooms that blend Swiss charm with Bhutanese warmth — featuring wooden interiors, soft linens, and tranquil garden views for a truly restful stay."
         icon={Bed}
         images={[
-          { src: "/Hompage.png", alt: "Room photo 1" },
-          { src: "/Hompage.png", alt: "Room photo 2" },
-          { src: "/Hompage.png", alt: "Room photo 3" },
-          { src: "/Hompage.png", alt: "Room photo 4" },
-          { src: "/Hompage.png", alt: "Room photo 5" },
+          { src: "/home/room1.png", alt: "Room photo 1" },
+          { src: "/home/room2.png", alt: "Room photo 2" },
+          { src: "/home/room3.png", alt: "Room photo 3" },
+          { src: "/home/room4.png", alt: "Room photo 4" },
         ]}
       />
       <FeatureSection
@@ -30,11 +29,10 @@ export default function Home() {
         description="Taste the world at our table — from comforting Bhutanese dishes to flavorful Indian curries and classic Swiss recipes, all cooked with love and served fresh from our kitchen."
         icon={UtensilsCrossed}
         images={[
-          { src: "/Hompage.png", alt: "Meal photo 1" },
-          { src: "/Hompage.png", alt: "Meal photo 2" },
-          { src: "/Hompage.png", alt: "Meal photo 3" },
-          { src: "/Hompage.png", alt: "Meal photo 4" },
-          { src: "/Hompage.png", alt: "Meal photo 5" },
+          { src: "/home/food1.png", alt: "Meal photo 1" },
+          { src: "/home/food2.png", alt: "Meal photo 2" },
+          { src: "/home/food3.png", alt: "Meal photo 3" },
+          { src: "/home/food4.png", alt: "Meal photo 4" },
         ]}
         reverse
       />
@@ -44,11 +42,10 @@ export default function Home() {
         description="Wake up surrounded by the beauty of Bumthang — from ancient monasteries to serene valleys and mountain paths waiting to be explored, all within easy reach."
         icon={MapPin}
         images={[
-          { src: "/Hompage.png", alt: "Location photo 1" },
-          { src: "/Hompage.png", alt: "Location photo 2" },
-          { src: "/Hompage.png", alt: "Location photo 3" },
-          { src: "/Hompage.png", alt: "Location photo 4" },
-          { src: "/Hompage.png", alt: "Location photo 5" },
+          { src: "/home/loca1.png", alt: "Location photo 1" },
+          { src: "/home/loca2.png", alt: "Location photo 2" },
+          { src: "/home/loca3.png", alt: "Location photo 3" },
+          { src: "/home/loca4.png", alt: "Location photo 4" },
         ]}
       />
       <EndMessage />
