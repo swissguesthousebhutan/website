@@ -9,7 +9,7 @@ export default function RoomsPage() {
       description:
         "Spacious room with warm wood interiors, a comfortable double bed, and serene garden views.",
       features: [
-        { icon: Bed, label: "1 Double Bed" },
+        { icon: Bed, label: "1 King-size Bed" },
         { icon: Users, label: "2 Guests" },
         { icon: Tag, label: "Price: Nu. 3,200 per night" },
         { icon: Utensils, label: "Breakfast included" },
@@ -17,7 +17,7 @@ export default function RoomsPage() {
     },
     {
       title: "Twin Room",
-      image: "/home/room1.png",
+      image: "/home/room5.png",
       description:
         "Cozy twin setup ideal for friends or family, combining comfort with practical space.",
       features: [
@@ -40,13 +40,13 @@ export default function RoomsPage() {
       ],
     },
     {
-      title: "Standard Single",
+      title: "Standard Room",
       image: "/home/room5.png",
       description:
         "A quiet and comfortable single room for solo travelers seeking value and rest.",
       features: [
-        { icon: Bed, label: "1 Single Bed" },
-        { icon: Users, label: "1 Guest" },
+        { icon: Bed, label: "2 Single Beds" },
+        { icon: Users, label: "2 Guests" },
         { icon: Tag, label: "Price: Nu. 2,000 per night" },
         { icon: Utensils, label: "Breakfast included" },
       ],
@@ -137,6 +137,17 @@ export default function RoomsPage() {
               ))}
             </ul>
           </div>
+        </div>
+      </div>
+
+      {/* Closing note */}
+      <div className="rounded-xl bg-secondary/30 p-6 md:p-8 shadow-sm">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-foreground/80 text-base md:text-lg leading-relaxed text-center">
+            Each room is designed to reflect the calm of the Bumthang valley and
+            the charm of Swiss alpine lodges — a quiet retreat where nature
+            meets comfort.
+          </p>
         </div>
       </div>
     </section>
