@@ -1,16 +1,17 @@
+import IntroCard from "./components/intro-card";
+import StorySection from "./components/story-section";
+import ValuesGrid from "./components/values-grid";
+import VisitContact from "./components/endnote";
+import HistorySection from "./components/history-section";
+
 export default function AboutPage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
-      <h1 className="text-3xl font-bold mb-4">About Us</h1>
-      <p className="text-lg text-foreground/80 mb-2">
-        Welcome to Swiss Guest House! We blend Swiss hospitality with Bhutanese
-        tradition, offering cozy rooms, homemade meals, and a tranquil setting
-        in Bumthang.
-      </p>
-      <p className="text-foreground/70">
-        Our family-run guest house is dedicated to making your stay memorable,
-        whether you’re here for adventure, culture, or relaxation.
-      </p>
-    </main>
+    <section className="mx-auto w-full max-w-7xl px-4 md:px-6 py-10 space-y-8">
+      <IntroCard />
+      <StorySection />
+      <HistorySection />
+      <ValuesGrid />
+      <VisitContact />
+    </section>
   );
 }
