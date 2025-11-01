@@ -18,8 +18,8 @@ export default function SiteNavbar() {
   const navItems = [
     { href: "/Home", label: "Home" },
     { href: "/rooms", label: "Rooms" },
-    { href: "/food", label: "Foods" },
-    { href: "/picture", label: "Pictures" },
+    { href: "/food", label: "Food" },
+    { href: "/picture", label: "Gallery" },
     { href: "/activities", label: "Activities" },
     { href: "/about", label: "About us" },
   ];
