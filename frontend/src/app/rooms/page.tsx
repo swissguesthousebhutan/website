@@ -41,7 +41,7 @@ export default function RoomsPage() {
     },
     {
       title: "Standard Single",
-      image: "/home/room1.png",
+      image: "/home/room5.png",
       description:
         "A quiet and comfortable single room for solo travelers seeking value and rest.",
       features: [

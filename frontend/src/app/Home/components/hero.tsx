@@ -58,7 +58,7 @@ export default function Hero() {
                 Swiss Guest House
               </h1>
               <p className="mt-3 text-base md:text-lg text-white/90">
-                Cozy rooms, local cuisine, and warm hospitality in Bumthang,
+                Cozy rooms, Great cuisine, and Warm hospitality in Bumthang,
                 Bhutan.
               </p>
               <div className="mt-6 flex items-center gap-3">
