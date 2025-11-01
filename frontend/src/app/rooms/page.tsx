@@ -5,7 +5,7 @@ export default function RoomsPage() {
   const rooms = [
     {
       title: "Deluxe Double Room",
-      image: "/home/room1.png",
+      image: "/home/room1.jpg",
       description:
         "Spacious room with warm wood interiors, a comfortable double bed, and serene garden views.",
       features: [
@@ -17,7 +17,7 @@ export default function RoomsPage() {
     },
     {
       title: "Twin Room",
-      image: "/home/room5.png",
+      image: "/home/room5.jpg",
       description:
         "Cozy twin setup ideal for friends or family, combining comfort with practical space.",
       features: [
@@ -29,7 +29,7 @@ export default function RoomsPage() {
     },
     {
       title: "Family Suite",
-      image: "/home/room1.png",
+      image: "/home/room1.jpg",
       description:
         "A larger room suited for families, with extra seating and flexible bedding options.",
       features: [
@@ -41,7 +41,7 @@ export default function RoomsPage() {
     },
     {
       title: "Standard Room",
-      image: "/home/room5.png",
+      image: "/home/room5.jpg",
       description:
         "A quiet and comfortable single room for solo travelers seeking value and rest.",
       features: [
