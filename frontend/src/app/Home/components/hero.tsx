@@ -31,7 +31,7 @@ export default function Hero() {
   }, [images.length, displayMs]);
 
   return (
-    <section className="relative w-full overflow-hidden border-2 border-primary rounded-lg">
+    <section className="relative w-full overflow-hidden rounded-lg">
       <div className="relative h-[420px] md:h-[520px]">
         {/* Slideshow layers: keep all images mounted and fade by index */}
         <div className="absolute inset-0">
