@@ -19,7 +19,7 @@ export default function RoomCard({
   description,
   image,
   features = [],
-  ctaHref = "tel:+97517164119",
+  ctaHref = "/Booking",
   ctaLabel = "Book now",
 }: Props) {
   return (
