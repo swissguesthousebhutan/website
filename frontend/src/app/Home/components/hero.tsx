@@ -63,7 +63,7 @@ export default function Hero() {
               </p>
               <div className="mt-6 flex items-center gap-3">
                 <Button asChild>
-                  <Link href="/rooms">Book a room</Link>
+                  <Link href="/Booking">Book now</Link>
                 </Button>
                 <Button
                   asChild
