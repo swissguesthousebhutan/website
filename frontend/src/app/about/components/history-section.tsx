@@ -64,8 +64,8 @@ export default function HistorySection() {
             </p>
 
             <p>
-              True to its Swiss roots, the guest house is run by a cheese maker
-              trained in Switzerland, and naturally features specialties such as
+              True to its Swiss roots, the guest house is run by Daughter of Fritz Maurer,
+              professionally trained in Switzerland, and naturally features specialties such as
               Fondue, Raclette, Bratwurst, Rösti, and Züri Gschnätzlets,
               alongside authentic Bhutanese cuisine. Whether you crave a taste
               of home or a local delicacy, the Swiss Guest House offers a
