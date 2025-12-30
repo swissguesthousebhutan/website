@@ -1,5 +1,5 @@
 import RoomCard from "@/app/rooms/components/room-card";
-import { Bed, Users, Utensils, Check, Tag } from "lucide-react";
+import { Bed, Users, Sun, Check, Tag } from "lucide-react";
 
 export default function RoomsPage() {
   const rooms = [
@@ -12,31 +12,7 @@ export default function RoomsPage() {
         { icon: Bed, label: "1 King-size Bed" },
         { icon: Users, label: "2 Guests" },
         { icon: Tag, label: "Price: Nu. 3,200 per night" },
-        { icon: Utensils, label: "Breakfast included" },
-      ],
-    },
-    {
-      title: "Twin Room",
-      image: "/home/room5.jpg",
-      description:
-        "Cozy twin setup ideal for friends or family, combining comfort with practical space.",
-      features: [
-        { icon: Bed, label: "2 Single Beds" },
-        { icon: Users, label: "2 Guests" },
-        { icon: Tag, label: "Price: Nu. 2,800 per night" },
-        { icon: Utensils, label: "Breakfast included" },
-      ],
-    },
-    {
-      title: "Family Suite",
-      image: "/home/room1.jpg",
-      description:
-        "A larger room suited for families, with extra seating and flexible bedding options.",
-      features: [
-        { icon: Bed, label: "Double + Extra Beds" },
-        { icon: Users, label: "3–4 Guests" },
-        { icon: Tag, label: "Price: Nu. 4,500 per night" },
-        { icon: Utensils, label: "Breakfast included" },
+        { icon: Sun, label: "Private balcony" },
       ],
     },
     {
@@ -48,7 +24,7 @@ export default function RoomsPage() {
         { icon: Bed, label: "2 Single Beds" },
         { icon: Users, label: "2 Guests" },
         { icon: Tag, label: "Price: Nu. 2,000 per night" },
-        { icon: Utensils, label: "Breakfast included" },
+        { icon: Sun, label: "Private balcony" },
       ],
     },
   ];
