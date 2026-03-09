@@ -34,8 +34,9 @@ export default function FoodPage() {
                     Cheese fondue
                   </h2>
                   <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
-                    Classic Swiss fondue to share – bubbling cheese with bread
-                    in our cosy dining room.
+                    A classic Swiss melted-cheese pot for sharing. You get warm
+                    fondue with bread cubes, boiled potatoes, and pickled
+                    vegetables for dipping.
                   </p>
                 </div>
               </div>
@@ -59,8 +60,9 @@ export default function FoodPage() {
                     Raclette
                   </h2>
                   <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
-                    Melted raclette cheese with potatoes and pickles – perfect
-                    after a cool Bumthang day.
+                    Traditional raclette with hot, melted Alpine cheese. You get
+                    cheese scraped over baby potatoes, pickles, pearl onions,
+                    and rustic bread.
                   </p>
                 </div>
               </div>
@@ -84,8 +86,87 @@ export default function FoodPage() {
                     Swiss breakfast
                   </h2>
                   <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
-                    Our special breakfast with homemade bread, cheese, jam and
-                    fresh coffee to start your day.
+                    A hearty Swiss-style morning set. You get homemade bread,
+                    local cheese, seasonal fruit, house jam, eggs, and fresh
+                    coffee or tea.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Red panda card */}
+            <div className="px-1.5 md:px-2">
+              <div className="rounded-lg border-2 border-primary bg-white shadow-sm md:hover:shadow-md transition-shadow overflow-hidden flex flex-col h-full">
+                <div className="group relative aspect-4/3 overflow-hidden border-b border-border">
+                  <Image
+                    src="/home/food4.jpg"
+                    alt="Red Panda beer at Swiss Guest House"
+                    fill
+                    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
+                    priority={false}
+                  />
+                </div>
+                <div className="px-4 py-4 text-center">
+                  <h2 className="text-lg font-semibold tracking-tight text-primary">
+                    Red panda
+                  </h2>
+                  <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
+                    A local Red Panda beer with a clean, crisp finish. You get
+                    one chilled bottle served with a cold glass and light snack
+                    bites.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Swiss cheese gouda card */}
+            <div className="px-1.5 md:px-2">
+              <div className="rounded-lg border-2 border-primary bg-white shadow-sm md:hover:shadow-md transition-shadow overflow-hidden flex flex-col h-full">
+                <div className="group relative aspect-4/3 overflow-hidden border-b border-border">
+                  <Image
+                    src="/home/food2.jpg"
+                    alt="Swiss cheese at Swiss Guest House"
+                    fill
+                    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
+                    priority={false}
+                  />
+                </div>
+                <div className="px-4 py-4 text-center">
+                  <h2 className="text-lg font-semibold tracking-tight text-primary">
+                    Swiss cheese
+                  </h2>
+                  <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
+                    A classic Swiss cheese plate with mild and aged selections.
+                    You get sliced cheese with crusty bread, dried fruits, and
+                    house pickles.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Bratwurst card */}
+            <div className="px-1.5 md:px-2">
+              <div className="rounded-lg border-2 border-primary bg-white shadow-sm md:hover:shadow-md transition-shadow overflow-hidden flex flex-col h-full">
+                <div className="group relative aspect-4/3 overflow-hidden border-b border-border">
+                  <Image
+                    src="/home/food3.jpg"
+                    alt="Bratwurst at Swiss Guest House"
+                    fill
+                    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
+                    priority={false}
+                  />
+                </div>
+                <div className="px-4 py-4 text-center">
+                  <h2 className="text-lg font-semibold tracking-tight text-primary">
+                    Bratwurst
+                  </h2>
+                  <p className="mt-2 text-foreground/80 text-sm leading-relaxed">
+                    A grilled Swiss-German style bratwurst sausage. You get one
+                    large bratwurst with mustard, sauteed onions, roasted
+                    potatoes, and a fresh side salad.
                   </p>
                 </div>
               </div>
@@ -94,8 +175,8 @@ export default function FoodPage() {
         </div>
       </div>
 
-      <HoursCard />
       <ReservationCard />
+      <HoursCard />
     </section>
   );
 }
