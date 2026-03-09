@@ -10,7 +10,7 @@ export default function HoursCard() {
       <ul className="mt-4 space-y-2 text-foreground/80 text-sm md:text-base">
         <li className="flex items-center gap-2">
           <Clock className="h-4 w-4 text-primary" aria-hidden />
-          <span>Open daily: 7:00am – 10:00pm</span>
+          <span>Open daily: 7:00am – 9:00pm</span>
         </li>
         <li className="flex items-center gap-2">
           <Clock className="h-4 w-4 text-primary" aria-hidden />
@@ -18,7 +18,7 @@ export default function HoursCard() {
         </li>
         <li className="flex items-center gap-2">
           <Clock className="h-4 w-4 text-primary" aria-hidden />
-          <span>Dinner: 6:00pm – 9:30pm</span>
+          <span>Dinner: 6:00pm – 9:00pm</span>
         </li>
       </ul>
       <p className="mt-3 text-xs text-foreground/60">
