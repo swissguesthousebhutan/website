@@ -33,7 +33,7 @@ export default function ActivityCard({
   const Icon = activityIcon[title];
 
   return (
-    <Card className="p-3 md:p-4 transition-shadow hover:shadow-md">
+    <Card className="p-3 md:p-4 bg-white transition-shadow hover:shadow-md">
       <div
         className={`grid grid-cols-1 ${
           reverse ? "md:grid-cols-[7fr_3fr]" : "md:grid-cols-[3fr_7fr]"

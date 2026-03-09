@@ -37,18 +37,20 @@ const activities = [
 
 export default function ActivitiesGrid() {
   return (
-    <div className="grid grid-cols-1 gap-5 md:gap-6 w-full">
-      {activities.map((activity, index) => (
-        <ActivityCard
-          key={activity.title}
-          title={activity.title}
-          image={activity.image}
-          imageAlt={activity.imageAlt}
-          description={activity.description}
-          bestTime={activity.bestTime}
-          reverse={index % 2 === 0}
-        />
-      ))}
+    <div className="rounded-xl bg-secondary/30 p-6 md:p-8 shadow-sm">
+      <div className="grid grid-cols-1 gap-5 md:gap-6 w-full">
+        {activities.map((activity, index) => (
+          <ActivityCard
+            key={activity.title}
+            title={activity.title}
+            image={activity.image}
+            imageAlt={activity.imageAlt}
+            description={activity.description}
+            bestTime={activity.bestTime}
+            reverse={index % 2 === 0}
+          />
+        ))}
+      </div>
     </div>
   );
 }
