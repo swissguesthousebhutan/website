@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 const Sheet = DialogPrimitive.Root;
 const SheetTrigger = DialogPrimitive.Trigger;
 const SheetClose = DialogPrimitive.Close;
+const SheetTitle = DialogPrimitive.Title;
 
 function SheetPortal({
   children,
@@ -23,7 +24,7 @@ function SheetOverlay({
     <DialogPrimitive.Overlay
       className={cn(
         "fixed inset-0 z-100 bg-black/50 backdrop-blur-sm",
-        className
+        className,
       )}
       {...props}
     />
@@ -67,7 +68,7 @@ function SheetHeader({
     <div
       className={cn(
         "px-4 py-3 border-b border-black/10 dark:border-white/10",
-        className
+        className,
       )}
       {...props}
     />
@@ -85,6 +86,7 @@ export {
   Sheet,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
   SheetContent,
   SheetHeader,
   SheetBody,

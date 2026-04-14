@@ -3,7 +3,7 @@ import ActivityCard from "@/app/activities/components/activity-card";
 const activities = [
   {
     title: "Bonfire" as const,
-    image: "/home/loca1.jpg",
+    image: "/home/bonfire.jpg",
     imageAlt: "Bonfire activity at Swiss Guest House",
     description:
       "Gather around a warm bonfire in the evening, enjoy mountain air, and share stories under the stars.",
@@ -11,7 +11,7 @@ const activities = [
   },
   {
     title: "Bushman Trail" as const,
-    image: "/home/loca2.jpg",
+    image: "/home/trail.jpg",
     imageAlt: "Bushman Trail walk in Bumthang",
     description:
       "Take a scenic walk through peaceful forest paths and discover the natural beauty of Bumthang.",
@@ -19,7 +19,7 @@ const activities = [
   },
   {
     title: "Visit Kharchu Dratshang" as const,
-    image: "/home/loca3.jpg",
+    image: "/home/dratshang.jpg",
     imageAlt: "Kharchu Dratshang monastery visit",
     description:
       "Visit one of Bumthang's important monastic centers to experience Bhutanese culture and spiritual heritage.",
@@ -27,7 +27,7 @@ const activities = [
   },
   {
     title: "Visit Red Panda Brewery" as const,
-    image: "/home/loca4.jpg",
+    image: "/home/brewery.jpg",
     imageAlt: "Visit to Red Panda Brewery in Bumthang",
     description:
       "Tour the Red Panda Brewery and learn about Bhutan's popular local craft beer, from brewing process to tasting.",

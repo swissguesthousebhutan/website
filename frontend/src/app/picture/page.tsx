@@ -1,11 +1,20 @@
+import GalleryHeader from "./components/gallery-header";
+import GallerySection from "./components/gallery-section";
+import { gallerySections } from "./components/gallery-data";
+
 export default function PicturePage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
-      <h1 className="text-3xl font-bold mb-4">Gallery</h1>
-      <p className="text-lg text-foreground/80 mb-2">
-        Explore our photo gallery to get a glimpse of the guest house, our food,
-        and the beautiful Bumthang valley.
-      </p>
-    </main>
+    <section className="mx-auto w-full max-w-7xl px-4 py-10 md:px-6 space-y-8">
+      <GalleryHeader
+        title="Gallery"
+        subtitle="A visual tour of our rooms, food, and the beauty around us."
+      />
+
+      <div className="space-y-8">
+        {gallerySections.map((section) => (
+          <GallerySection key={section.title} section={section} />
+        ))}
+      </div>
+    </section>
   );
 }
