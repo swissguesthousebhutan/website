@@ -29,8 +29,8 @@ export default function Home() {
         description="Taste the world at our table — from comforting Bhutanese dishes to flavorful Indian curries and classic Swiss recipes, all cooked with love and served fresh from our kitchen."
         icon={UtensilsCrossed}
         images={[
-          { src: "/home/food1.jpg", alt: "Meal photo 1" },
-          { src: "/home/food2.jpg", alt: "Meal photo 2" },
+          { src: "/food/Fondue.jpeg", alt: "Cheese fondue" },
+          { src: "/food/Raclette.jpeg", alt: "Traditional raclette" },
           { src: "/home/food3.jpg", alt: "Meal photo 3" },
           { src: "/home/food4.jpg", alt: "Meal photo 4" },
         ]}
