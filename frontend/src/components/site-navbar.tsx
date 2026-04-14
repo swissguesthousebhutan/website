@@ -9,6 +9,7 @@ import {
   Sheet,
   SheetTrigger,
   SheetContent,
+  SheetTitle,
   SheetHeader,
   SheetBody,
   SheetClose,
@@ -79,6 +80,9 @@ export default function SiteNavbar() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="flex flex-col">
+                <SheetTitle className="sr-only">
+                  Main Navigation Menu
+                </SheetTitle>
                 <SheetHeader className="flex items-center gap-2">
                   <Image
                     src="/logo.svg"
