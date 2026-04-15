@@ -1,5 +1,5 @@
 import RoomCard from "@/app/rooms/components/room-card";
-import { Bed, Users, Sun, Check, Tag } from "lucide-react";
+import { Bed, Users, Sun, Check, Flame } from "lucide-react";
 
 export default function RoomsPage() {
   const rooms = [
@@ -11,7 +11,7 @@ export default function RoomsPage() {
       features: [
         { icon: Bed, label: "1 King-size Bed" },
         { icon: Users, label: "2 Guests" },
-        { icon: Tag, label: "Price: Nu. 3,200 per night" },
+        { icon: Flame, label: "Bukhari and Heater" },
         { icon: Sun, label: "Private balcony" },
       ],
     },
@@ -23,7 +23,7 @@ export default function RoomsPage() {
       features: [
         { icon: Bed, label: "2 Single Beds" },
         { icon: Users, label: "2 Guests" },
-        { icon: Tag, label: "Price: Nu. 2,000 per night" },
+        { icon: Flame, label: "Bukhari and Heater" },
         { icon: Sun, label: "Private balcony" },
       ],
     },
