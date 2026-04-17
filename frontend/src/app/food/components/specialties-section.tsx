@@ -67,7 +67,8 @@ export default function SpecialtiesSection() {
           Our Specialties
         </h1>
         <p className="mt-3 text-foreground/80 text-sm md:text-base leading-relaxed text-center md:text-left max-w-2xl">
-          A few of the dishes guests love most at Swiss Guest House.
+          A few of the dishes guests love most at{" "}
+          <span className="notranslate">Swiss Guest House</span>.
         </p>
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-4 gap-x-0">

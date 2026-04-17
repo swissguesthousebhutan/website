@@ -39,9 +39,10 @@ export default function RoomsPage() {
           </h1>
           <div className="mt-2 h-1 w-16 rounded-full bg-primary/80" />
           <p className="mt-4 text-foreground/80 text-base md:text-lg leading-relaxed">
-            Step into comfort and calm. Each room at Swiss Guest House is
-            designed to make you feel at home — blending Swiss simplicity with
-            Bhutanese warmth.
+            Step into comfort and calm. Each room at{" "}
+            <span className="notranslate">Swiss Guest House</span> is designed
+            to make you feel at home — blending Swiss simplicity with Bhutanese
+            warmth.
           </p>
         </div>
       </div>

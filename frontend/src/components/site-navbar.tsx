@@ -43,7 +43,7 @@ export default function SiteNavbar() {
               className=""
               priority
             />
-            <span className="tracking-tight text-primary">
+            <span className="tracking-tight text-primary notranslate">
               Swiss Guest House
             </span>
           </Link>
@@ -92,7 +92,7 @@ export default function SiteNavbar() {
                     className=""
                     priority
                   />
-                  <span className="font-bold text-xl text-primary">
+                  <span className="font-bold text-xl text-primary notranslate">
                     Swiss Guest House
                   </span>
                 </SheetHeader>

@@ -10,11 +10,12 @@ export default function StorySection() {
           </h2>
           <div className="mt-2 h-1 w-12 rounded-full bg-primary/80" />
           <p className="mt-4 text-foreground/80 leading-relaxed">
-            For generations, Swiss Guest House has been a place of rest and
-            connection — welcoming travelers, trekkers, and families to unwind
-            in the heart of Bumthang. What began as a humble, family-run lodge
-            has grown with care and consistency, rooted in community, good food,
-            and genuine Bhutanese–Swiss hospitality.
+            For generations,{" "}
+            <span className="notranslate">Swiss Guest House</span> has been a
+            place of rest and connection — welcoming travelers, trekkers, and
+            families to unwind in the heart of Bumthang. What began as a humble,
+            family-run lodge has grown with care and consistency, rooted in
+            community, good food, and genuine Bhutanese–Swiss hospitality.
           </p>
           <p className="mt-3 text-foreground/80 leading-relaxed">
             Whether you’re here to explore sacred monasteries, wander through

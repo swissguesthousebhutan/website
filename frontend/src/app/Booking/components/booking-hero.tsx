@@ -16,9 +16,11 @@ export default function BookingHero() {
           </div>
         </div>
         <p className="text-foreground/80 text-base md:text-lg leading-relaxed">
-          Reserve your stay at Swiss Guest House by calling us directly or
-          reaching out on our social pages. Send us your travel dates and group
-          size, and we&apos;ll confirm availability as soon as possible.
+          Reserve your stay at{" "}
+          <span className="notranslate">Swiss Guest House</span> by calling us
+          directly or reaching out on our social pages. Send us your travel
+          dates and group size, and we&apos;ll confirm availability as soon as
+          possible.
         </p>
       </div>
     </div>

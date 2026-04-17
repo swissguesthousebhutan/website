@@ -8,7 +8,7 @@ export default function ActivitiesHero() {
         <div className="mt-2 h-1 w-16 rounded-full bg-primary/80" />
         <p className="mt-4 text-foreground/80 text-base md:text-lg leading-relaxed">
           Explore the valley through cultural visits, forest trails, and warm
-          evenings at Swiss Guest House.
+          evenings at <span className="notranslate">Swiss Guest House</span>.
         </p>
       </div>
     </div>

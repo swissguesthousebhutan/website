@@ -38,7 +38,7 @@ export default function MenuSection() {
           <ul className="mt-3 space-y-2 text-foreground/80 text-sm md:text-base">
             {swiss.map((i) => (
               <li key={i.name} className="">
-                <span className="font-medium">{i.name}</span>
+                <span className="font-medium notranslate">{i.name}</span>
                 <span className="block text-foreground/70 text-sm">
                   {i.desc}
                 </span>
@@ -57,7 +57,7 @@ export default function MenuSection() {
           <ul className="mt-3 space-y-2 text-foreground/80 text-sm md:text-base">
             {bhutanese.map((i) => (
               <li key={i.name} className="">
-                <span className="font-medium">{i.name}</span>
+                <span className="font-medium notranslate">{i.name}</span>
                 <span className="block text-foreground/70 text-sm">
                   {i.desc}
                 </span>

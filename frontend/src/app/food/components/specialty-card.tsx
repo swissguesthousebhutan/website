@@ -29,7 +29,7 @@ export default function SpecialtyCard({
           />
         </div>
         <div className="px-4 py-4 text-center">
-          <h2 className="text-lg font-semibold tracking-tight text-primary">
+          <h2 className="text-lg font-semibold tracking-tight text-primary notranslate">
             {title}
           </h2>
           <p className="mt-2 text-foreground/80 text-sm leading-relaxed">

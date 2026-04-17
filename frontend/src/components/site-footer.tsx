@@ -47,7 +47,8 @@ export default function SiteFooter() {
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4" aria-hidden />
               <span>
-                <span className="font-medium">Address:</span> Swiss Guest house,
+                <span className="font-medium">Address:</span>{" "}
+                <span className="notranslate">Swiss Guest House</span>,
                 Kharsumphe, Bumthang 32001, Bhutan
               </span>
             </li>
@@ -72,8 +73,9 @@ export default function SiteFooter() {
       </div>
       <div className="border-t-2 border-primary">
         <div className="mx-auto max-w-7xl px-4 md:px-6 py-4 text-xs text-foreground/80">
-          © {new Date().getFullYear()} Swiss Guest House Bhutan. All rights
-          reserved.
+          © {new Date().getFullYear()}{" "}
+          <span className="notranslate">Swiss Guest House</span> Bhutan. All
+          rights reserved.
         </div>
       </div>
     </footer>

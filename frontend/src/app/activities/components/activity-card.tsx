@@ -57,7 +57,7 @@ export default function ActivityCard({
             <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary">
               <Icon className="h-4 w-4" aria-hidden />
             </span>
-            <h3 className="text-primary text-lg font-semibold tracking-tight mt-2">
+            <h3 className="text-primary text-lg font-semibold tracking-tight mt-2 notranslate">
               {title}
             </h3>
           </div>
