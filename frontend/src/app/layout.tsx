@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Swiss Guest House",
   description: "A cozy place to stay in the heart of Bhutan",
 };
 
@@ -26,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title translate="no">Swiss Guest House</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >

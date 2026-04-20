@@ -4,7 +4,8 @@ export default function EndMessage() {
       <div className="rounded-xl bg-secondary/30 p-6 md:p-8 shadow-sm">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-primary">
-            Thank you for visiting Swiss Guest House.
+            Thank you for visiting{" "}
+            <span className="notranslate">Swiss Guest House</span>.
           </h2>
           <div className="mt-2 h-1 w-16 rounded-full bg-primary/80 mx-auto" />
           <p className="mt-4 text-foreground/80 text-base md:text-lg leading-relaxed">

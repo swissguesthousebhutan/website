@@ -60,7 +60,9 @@ function setGoogleCookies(nextLang: Lang) {
 const langListeners = new Set<() => void>();
 function subscribeLang(cb: () => void) {
   langListeners.add(cb);
-  return () => langListeners.delete(cb);
+  return () => {
+    langListeners.delete(cb);
+  };
 }
 function getLangSnapshot(): Lang {
   return readLangFromCookie();

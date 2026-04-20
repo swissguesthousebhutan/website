@@ -12,13 +12,13 @@ export default function HistorySection() {
         <div className="mt-4 space-y-4 text-foreground/80 leading-relaxed">
           <div className="md:grid md:grid-cols-3 md:gap-6 md:items-start">
             <p className="md:col-span-2">
-              The Swiss Guest House Bhutan stands as one of the oldest and most
-              enduring classic Bhutanese lodges in Bumthang. Blending
-              traditional Bhutanese charm with Swiss warmth, it offers fine
-              dining featuring home-made Swiss cuisine in a refreshing, tranquil
-              setting. For decades, it has carried forward its long-honored
-              traditions of hospitality, offering peace and comfort to all who
-              visit.
+              The <span className="notranslate">Swiss Guest House</span> Bhutan
+              stands as one of the oldest and most enduring classic Bhutanese
+              lodges in Bumthang. Blending traditional Bhutanese charm with
+              Swiss warmth, it offers fine dining featuring home-made Swiss
+              cuisine in a refreshing, tranquil setting. For decades, it has
+              carried forward its long-honored traditions of hospitality,
+              offering peace and comfort to all who visit.
             </p>
             <div className="mt-3 md:mt-0 relative aspect-4/3 w-full overflow-hidden rounded-lg md:max-w-sm md:ml-auto">
               <Image
@@ -41,7 +41,8 @@ export default function HistorySection() {
               served as the headquarters for the Dairy and Forestry Project,
               where Swiss professionals working on the initiative often
               gathered. Over time, the name “Karsumphe Guesthouse” naturally
-              evolved into the now-beloved Swiss Guest House.
+              evolved into the now-beloved{" "}
+              <span className="notranslate">Swiss Guest House</span>.
             </p>
 
             <p>
@@ -64,11 +65,15 @@ export default function HistorySection() {
             </p>
 
             <p>
-              True to its Swiss roots, the guest house is run by Daughter of Fritz Maurer,
-              professionally trained in Switzerland, and naturally features specialties such as
-              Fondue, Raclette, Bratwurst, Rösti, and Züri Gschnätzlets,
-              alongside authentic Bhutanese cuisine. Whether you crave a taste
-              of home or a local delicacy, the Swiss Guest House offers a
+              True to its Swiss roots, the guest house is run by Daughter of
+              Fritz Maurer, professionally trained in Switzerland, and naturally
+              features specialties such as
+              <span className="notranslate">
+                Fondue, Raclette, Bratwurst, Rösti, and Züri Gschnätzlets
+              </span>
+              , alongside authentic Bhutanese cuisine. Whether you crave a taste
+              of home or a local delicacy, the{" "}
+              <span className="notranslate">Swiss Guest House</span> offers a
               comforting experience that feels both familiar and timeless.
             </p>
           </div>

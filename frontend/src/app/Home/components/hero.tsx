@@ -17,7 +17,7 @@ export default function Hero() {
       { src: "/home/Hero4.jpg", alt: "Swiss Guest House exterior 4" },
       { src: "/home/Hero5.jpg", alt: "Swiss Guest House exterior 5" },
     ],
-    []
+    [],
   );
   const [index, setIndex] = useState(0);
   const displayMs = 4000; // visible time per image
@@ -54,7 +54,7 @@ export default function Hero() {
         <div className="absolute inset-0 flex items-end md:items-center">
           <div className="mx-auto w-full max-w-7xl px-4 md:px-6 py-10 md:py-0">
             <div className="max-w-xl text-white">
-              <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tight notranslate">
                 Swiss Guest House
               </h1>
               <p className="mt-3 text-base md:text-lg text-white/90">
