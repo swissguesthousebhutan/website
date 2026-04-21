@@ -4,10 +4,10 @@ import { Bed, Users, Sun, Check, Flame } from "lucide-react";
 export default function RoomsPage() {
   const rooms = [
     {
-      title: "Deluxe Double Room",
+      title: "Deluxe Room",
       image: "/home/room1.jpg",
       description:
-        "Spacious room with warm wood interiors, a comfortable double bed, and serene garden views.",
+        "Spacious room with warm wood interiors, a comfortable king-size bed, and serene garden views.",
       features: [
         { icon: Bed, label: "1 King-size Bed" },
         { icon: Users, label: "2 Guests" },
