@@ -5,7 +5,7 @@ export default function TravelPolicyPage() {
         <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted-foreground">
           Guest information
         </p>
-        <h1 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
+        <h1 className="mt-3 text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
           Bhutan Travel Policy
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
@@ -58,7 +58,8 @@ export default function TravelPolicyPage() {
               <strong>Children under 6:</strong> Exempt from the SDF.
             </li>
             <li>
-              <strong>Indian nationals:</strong> INR 1,200 per person, per night.
+              <strong>Indian nationals:</strong> INR 1,200 per person, per
+              night.
             </li>
             <li>
               <strong>Visa fee:</strong> A non-refundable, one-off fee of USD 40
@@ -66,23 +67,25 @@ export default function TravelPolicyPage() {
               Maldivian citizens.
             </li>
             <li>
-              <strong>New 5% GST:</strong> Starting January 1, 2026, a 5%
-              Goods and Services Tax applies to tourism services such as
-              hotels, transport, and guides, while the SDF itself is exempt.
+              <strong>New 5% GST:</strong> Starting January 1, 2026, a 5% Goods
+              and Services Tax applies to tourism services such as hotels,
+              transport, and guides, while the SDF itself is exempt.
             </li>
           </ul>
 
-          <h2 className="mt-8 text-xl font-semibold">2. Visa and entry requirements</h2>
+          <h2 className="mt-8 text-xl font-semibold">
+            2. Visa and entry requirements
+          </h2>
           <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-6 text-muted-foreground">
             <li>
               <strong>Advance visa:</strong> All foreign nationals except those
-              from India, Bangladesh, and the Maldives must obtain a visa
-              before arrival.
+              from India, Bangladesh, and the Maldives must obtain a visa before
+              arrival.
             </li>
             <li>
-              <strong>Application process:</strong> You can apply online via
-              the Department of Immigration or through a licensed Bhutanese
-              tour operator.
+              <strong>Application process:</strong> You can apply online via the
+              Department of Immigration or through a licensed Bhutanese tour
+              operator.
             </li>
             <li>
               <strong>Passport validity:</strong> Your passport must be valid
@@ -115,7 +118,7 @@ export default function TravelPolicyPage() {
             </li>
           </ul>
 
-          <div className="mt-8 rounded-2xl bg-muted/40 p-5">
+          <div className="mt-10 rounded-2xl bg-muted/40 p-5 md:mt-12">
             <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
               Need help planning?
             </h3>
@@ -131,6 +134,24 @@ export default function TravelPolicyPage() {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className="rounded-2xl border bg-white p-5 shadow-sm md:p-6">
+        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+          Official reference
+        </h3>
+        <p className="mt-3 text-sm leading-6 text-muted-foreground">
+          Read the official Bhutan visa guidance for the most up-to-date entry
+          information.
+        </p>
+        <a
+          href="https://www.mfa.gov.bt/visa-to-enter-bhutan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+        >
+          View the official Bhutan travel policy
+        </a>
       </div>
     </section>
   );
