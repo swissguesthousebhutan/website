@@ -61,14 +61,14 @@ export default function Hero() {
                 Cozy rooms, Great cuisine, and Warm hospitality in Bumthang,
                 Bhutan.
               </p>
-              <div className="mt-6 flex items-center gap-3">
-                <Button asChild>
+              <div className="mt-6 flex flex-wrap items-center gap-3">
+                <Button asChild className="shrink-0">
                   <Link href="/Booking">Book now</Link>
                 </Button>
                 <Button
                   asChild
                   variant="outline"
-                  className="bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
+                  className="shrink-0 bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
                 >
                   <Link
                     href="https://maps.app.goo.gl/EET6hk2y2J2YcGUb8?g_st=ipc"
@@ -81,7 +81,7 @@ export default function Hero() {
                 <Button
                   asChild
                   variant="outline"
-                  className="bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
+                  className="shrink-0 bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
                 >
                   <Link href="/travel-policy">Travel policy</Link>
                 </Button>
@@ -90,7 +90,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
-                  className="p-2 rounded-md border border-white/70 text-white hover:bg-white/20 transition-colors"
+                  className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/70 p-2 text-white transition-colors hover:bg-white/20"
                 >
                   <Facebook className="h-5 w-5" />
                 </Link>
@@ -99,7 +99,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="p-2 rounded-md border border-white/70 text-white hover:bg-white/20 transition-colors"
+                  className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/70 p-2 text-white transition-colors hover:bg-white/20"
                 >
                   <Instagram className="h-5 w-5" />
                 </Link>
