@@ -78,6 +78,13 @@ export default function Hero() {
                     See location
                   </Link>
                 </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="bg-transparent border-white/70 text-white hover:bg-white/20 transition-colors"
+                >
+                  <Link href="/travel-policy">Travel policy</Link>
+                </Button>
                 <Link
                   href="https://www.facebook.com/share/1Bost5bxeY/?mibextid=wwXIfr"
                   target="_blank"
